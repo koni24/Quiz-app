@@ -13,7 +13,6 @@
  });
 
 function startGame(){
-console.log('get started');
 startButton.classList.add('hide')
 shuffleQuestions=questions.sort(()=> Math.random() - .5)
 currentQuestionIndex=0
